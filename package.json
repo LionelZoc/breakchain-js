@@ -1,0 +1,30 @@
+{
+  "name": "breakchain-js",
+  "version": "1.0.0",
+  "description": "simple algo to break a chain of integer in 3 part with some.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf dist/ && babel ./src -d dist/ --copy-files",
+    "start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionelZoc/breakchain-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionelZoc/breakchain-js/issues"
+  },
+  "homepage": "https://github.com/LionelZoc/breakchain-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "jest": "^25.1.0",
+    "mocha": "^7.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
